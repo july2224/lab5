@@ -1,0 +1,74 @@
+/* Estilo general */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #ffffff;
+    color: #333;
+    margin: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #d81b60;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Tabla de libros */
+#logLibros table {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+#logLibros th, #logLibros td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#logLibros th {
+    background-color: #f06292;
+    color: white;
+    font-size: 1.1em;
+}
+
+#logLibros td {
+    background-color: #fff0f5;
+}
+
+#logLibros tr:nth-child(even) td {
+    background-color: #ffe4f1;
+}
+
+#logLibros tr:hover td {
+    background-color: #ffccde;
+    transition: 0.3s;
+}
+
+/* Estado “Leído” y “No leído” */
+#logLibros td:first-child {
+    font-weight: bold;
+    width: 100px;
+    color: #d81b60;
+}
+
+/* Sugerencia */
+#sugerencia {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffebf0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#sugerencia strong {
+    color: #ad1457;
+}
